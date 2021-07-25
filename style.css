@@ -1,0 +1,58 @@
+body {
+    background: tan;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 23px;
+    margin: 35px 30px;
+    font-size: 40px;
+    background: grey;
+    border: 5px solid black;
+}
+}
+
+input, select {
+    font-size: 20px;
+    padding: 7px 15px;
+    margin-right: 11px;
+    margin-bottom: 12px;
+}
+
+form {
+    width: 720px;
+    margin: 0 auto;
+}
+
+table {
+    width: 720px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+th {
+    text-align: center;
+    font-size: 18px;
+}
+
+table, td, th {
+    border: 5px solid grey;
+}
+td, th {
+    padding: 3px;
+}
+td {
+    font-size: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.monthyValue {
+    font-size: 30px;
+    color: Black;
+    border: 10px solid black;
+    background-color: white;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery-Salary-Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Salary Calculator</h1>
+
+    <form id="SalaryForm">
+        <input
+            id="nameInput"
+            type="text"
+            placeholder="First Name"
+        />
+        <input
+            id="lastNameInput"
+            type="text"
+            placeholder="Last Name"
+        />
+        <input
+            id="iDInput"
+            type="number"
+            placeholder="ID Input"
+        />
+        <input
+            id="employeeTitle"
+            type="text"
+            placeholder="Title Input"
+        />
+        <input
+            id="priceInput"
+            type="number"
+            placeholder="Annual Salary"
+        />
+        <button id="submitBtn">Submit!</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Annual Salary</th>
+                <th>_______</th>
+            </tr>
+        </thead>
+        <tbody id="SalaryTable">
+            <tr>
+                <td>Christian</td>
+                <td>Fredricks</td>
+                <td>1234</td>
+                <td>Programmer</td>
+                <td>1500</td>
+                <td> <button id="removeBtn">Delete</button> </td>
+            </tr>
+            <tr>
+                <td>Ben</td>
+                <td>Fredricks</td>
+                <td>2345</td>
+                <td>boyo</td>
+                <td>4050</td>
+                <td> <button id="removeBtn">Delete</button> </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="monthyValue">
+        Total Monthly: $<span id="totalSalary">0</span>
+    </div>
+</body>
+</html>
