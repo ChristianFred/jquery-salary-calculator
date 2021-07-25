@@ -52,8 +52,8 @@ function calculateTotalSalary() {
 
 function removeEntry(){
 console.log('in delete function');
-console.log('this is', $(this));
-$(this).remove();
+  console.log('this is', $(this));
+  $(this).parent().remove();
 }
 
 function renderEmployeeToDOM() {
