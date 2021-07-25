@@ -6,8 +6,8 @@ $(document).ready(onReady);
 function onReady() {
     console.log('ready to go!');
     $('#SalaryForm').on('submit', onSubmit);
-    console.log('.removeBtn', $('.removeBtn'));
-    $(document).on('click', '.removeBtn', removeEntry);
+    console.log('#removeBtn', $('#removeBtn'));
+    $(document).on('click', '#removeBtn', removeEntry);
 }
 
 function onSubmit(event) {
@@ -52,8 +52,9 @@ function calculateTotalSalary() {
 
 function removeEntry(){
 console.log('in delete function');
+$(this).parent().parent().remove();
   console.log('this is', $(this));
-  $(this).parent().remove();
+
 }
 
 function renderEmployeeToDOM() {
